@@ -1,0 +1,17 @@
+group 'testrail-api'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'idea'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+    jcenter()
+}
+
+dependencies {
+    compile 'com.googlecode.json-simple:json-simple:1.1.1'
+    compile "com.fasterxml.jackson.core:jackson-databind:2.9.4"
+}
